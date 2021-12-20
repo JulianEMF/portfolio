@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800;900&family=Marcellus&family=Noto+Sans:wght@400;700&family=Noto+Serif+Display:wght@300;400;700;800&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/canvas.css">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/about.css">
+    <link rel="stylesheet" type="text/css" href="./styles/projects.css">
+    <link rel="stylesheet" type="text/css" href="./styles/contact.css">
+    <link rel="stylesheet" type="text/css" href="./styles/scrollbar.css">
+    <title>Document</title>
+</head>
+<body>  
+
+    <!-- Canvas full screen animation -->
+    <canvas>
+    </canvas>  
+
+    <!-- Wrapper that contains everything, on top of canvas -->
+    <div id="wrapper">
+
+        <!-- Navigation Bar -->
+        <div id="navigation-bar" class="nav-bar">
+            <ul id="navigation-links">
+                <li id="about-link">About</li>
+                <li id="projects-link">Projects</li>
+                <li id="contact-link">Contact</li>
+            </ul>
+            <div class="burger-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="small-navigation invisible-menu">
+                <div class="close-button-container">
+                    <img id="small-menu-close-button" src="../styles/images/cross.svg" alt="Close Button">
+                </div>
+                <ul id="small-navigation-items">
+                    <li id="about-link-small">About</li>
+                    <li id="projects-link-small">Projects</li>
+                    <li id="contact-link-small">Contact</li>
+                </ul>
+            </div>
+            <div id="flags-container">
+                <div id="english-container" class="svg-container">
+                    <h4>EN</h4>
+                    <img src="./styles/images/english.svg" alt="Flag for english language">
+                </div>
+                <div id="spanish-container" class="svg-container">
+                    <h4>ES</h4>
+                    <img src="./styles/images/spanish.svg" alt="Flag for spanish language">
+                </div>
+            </div>
+        </div>
+
+        <div class="main" id="main-content">
+            <div>
+                <div id="rings-container">
+                    <img class="ring outer-ring" src="./styles/images/outer-ring.svg" alt="Decorative Ring" >
+                    <img class="ring middle-ring" src="./styles/images/middle-ring.svg" alt="Decorative Ring" >
+                    <img class="ring inner-ring" src="./styles/images/inner-ring.svg" alt="Decorative Ring" > 
+                    <img class="profile-photo" src="./styles/images/profile-photo.png" alt="Profile Photo" >
+                </div>
+            </div>
+
+            <div id="title-container">
+                <h1>Julian Montoya Franco</h1>
+                <h2>Front-End Developer</h2>
+            </div>
+
+            <div id="contact-button-container">
+                <button>Contact</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div id="links-container">
+                <a href="https://github.com/quasarzet?tab=repositories" target='_blank'><img class="social-logo" src="./styles/images/technologies/github.svg" alt="GitHub Logo"></a>
+                <a href="https://www.linkedin.com/in/julian-montoya-franco-b31651208/" target='_blank'><img class="social-logo" src="./styles/images/technologies/linkedin.svg" alt="LinkedIn Logo"></a>
+                <a href="https://codepen.io/quasarzet" target='_blank'><img class="social-logo" src="./styles/images/technologies/codepen.svg" alt="Codepen Logo"></a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script> 
+    <script src="./scripts/canvas.js"></script>
+    <script src="./scripts/anime.min.js"></script>
+    <script src="./scripts/about.js"></script>
+    <script src="./scripts/projects.js"></script>
+    <script src="./scripts/contact.js"></script>
+    <script src="./scripts/main.js"></script>
+    
+</body>
+</html>

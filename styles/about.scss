@@ -1,0 +1,99 @@
+.about-section{
+    width: 80vw;
+    min-width: 320px;
+    max-height: 80vh;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    background-color: rgba(141, 141, 141, 0.5);
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 3;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    padding: 3em 3em;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#close-about-container{
+    height: 30px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+#about-cross{
+    height: 100%;
+}
+
+#about-cross:hover{
+    cursor: pointer;
+    transform: rotateZ(-90deg);
+    transition: 0.5s;
+}
+
+#about-section h1, #about-section h2{
+    text-align: center;
+    font-family: 'Marcellus';
+    font-size: 2em;
+    letter-spacing: 4px;
+}
+
+#about-section h1{
+    margin-top: 0;
+}
+
+#about-section p{
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Cairo';
+}
+
+#about-section #technologies-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+#about-section #technologies-container img{
+    width: 60px;
+    padding: 0.5em 0.5em;
+}
+
+
+@media screen and (max-width: 500px){
+    .about-section{
+        padding: 2rem 1.5rem;
+        left: 6%;
+        right: 6%;
+    }
+
+    #about-section h1, #about-section h2{
+        font-size: 1.5em;
+        letter-spacing: 4px;
+    }
+
+    #close-about-container{
+        height: 25px;
+    }
+
+    #about-section #technologies-container img{
+        width: 40px;
+        padding: 0.5em 0.5em;
+    }
+
+    #about-section p{
+        text-align: justify;
+    }
+
+
+}
