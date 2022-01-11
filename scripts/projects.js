@@ -23,11 +23,11 @@ const renderProjects = () => {
                 <div id="project-image-container-catering" class="image-container background-image">
                     <div class="project-overlay">
                         <div>
-                            <img src="./styles/images/web.svg">
+                            <a href="https://catering-management.herokuapp.com/" target="_blank"><img src="./styles/images/web.svg"></a>
                             <p class="website">Website</p>
                         </div>
                         <div>
-                            <img src="./styles/images/code.svg">
+                            <a href="https://github.com/JulianEMF/catering-management-application" target="_blank"><img src="./styles/images/code.svg"></a>
                             <p class="code">Code</p>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ const renderProjects = () => {
                 <div id="project-image-container-scheduler" class="image-container background-image">
                     <div class="project-overlay">
                         <div>
-                            <img src="./styles/images/code.svg">
+                            <a href="https://github.com/JulianEMF/scheduler" target="_blank"><img src="./styles/images/code.svg"></a>
                             <p class="code">Code</p>
                         </div>
                     </div>
@@ -63,11 +63,11 @@ const renderProjects = () => {
                 <div id="project-image-container-exortus" class="image-container background-image">
                     <div class="project-overlay">
                         <div>
-                            <img src="./styles/images/web.svg">
+                            <a href="https://julianemf.github.io/exortus/" target="_blank"><img src="./styles/images/web.svg"></a>
                             <p class="website">Website</p>
                         </div>
                         <div>
-                            <img src="./styles/images/code.svg">
+                        <a href="https://github.com/JulianEMF/exortus" target="_blank"><img src="./styles/images/code.svg"></a>
                             <p class="code">Code</p>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const renderProjects = () => {
                 </div>
                 <div id="project-text-container" class="overflow-scroll invisible">
                     <p id="exortus-description">Exortus is a complete website about a fictional transportation company that includes API requests to OpenWeather, images altered in photoshop and intricated animations. All the elements like the burger menu, accordion, slideshows, etc. have been programmed in JavaScript without the use of any libraries or frameworks.</p>
-                    <p id="exortus-technologies">Technologies: HTML, CSS/SASS, JAVASCRIPT, GSAP, AXIOS, ILLUSTRATOR, PHOTOSHOP, XD, SVG</p>
+                    <p id="exortus-technologies">Technologies: HTML, CSS/SASS, JavaScript, GSAP, AXIOS, ILLUSTRATOR, PHOTOSHOP, XD, SVG</p>
                 </div>
             </div>
 
@@ -85,11 +85,11 @@ const renderProjects = () => {
                 <div id="project-image-container-cooks-treat" class="image-container background-image">
                     <div class="project-overlay">
                         <div>
-                            <img src="./styles/images/web.svg">
+                            <a href="https://cooks-treat.netlify.app/" target="_blank"><img src="./styles/images/web.svg"></a>
                             <p class="website">Website</p>
                         </div>
                         <div>
-                            <img src="./styles/images/code.svg">
+                            <a href="https://github.com/JulianEMF/cooks-treat" target="_blank"><img src="./styles/images/code.svg"></a>
                             <p class="code">Code</p>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ const renderProjects = () => {
                 </div>
                 <div id="project-text-container" class="invisible overflow-scroll">
                     <p id="cooks-treat-description">Cook's Treat is an application that requests recipes from the Tasty API, and returns the results in an organized way using React Js to assist with the content organization.</p>
-                    <p id="cooks-treat-technologies">Technologies: HTML, CSS/SASS, JAVASCRIPT, React, GSAP, AXIOS, ILLUSTRATOR, PHOTOSHOP, XD, SVG.</p>
+                    <p id="cooks-treat-technologies">Technologies: HTML, CSS/SASS, JavaScript, React, AXIOS, ILLUSTRATOR, PHOTOSHOP, XD, SVG.</p>
                 </div>
             </div>
 
@@ -107,11 +107,11 @@ const renderProjects = () => {
                 <div id="project-image-container-thanksgiving" class="image-container background-image">
                     <div class="project-overlay">
                         <div>
-                            <img src="./styles/images/web.svg">
+                            <a href="https://julianemf.github.io/thanksgiving/" target="_blank"><img src="./styles/images/web.svg"></a>
                             <p class="website">Website</p>
                         </div>
                         <div>
-                            <img src="./styles/images/code.svg">
+                            <a href="https://github.com/JulianEMF/thanksgiving" target="_blank"><img src="./styles/images/code.svg"></a>
                             <p class="code">Code</p>
                         </div>
                     </div>
@@ -121,7 +121,7 @@ const renderProjects = () => {
                 </div>
                 <div id="project-text-container" class="overflow-scroll invisible">
                     <p id="thanksgiving-description">I AM THANKSGIVING is the landing page for a potential new restaurant in the city of Boston. Most visual elements have been altered using photoshop, while the SVG elements were edited with Illustrator.</p>
-                    <p id="thanksgiving-technologies">Technologies: HTML, CSS/SASS, JAVASCRIPT, GSAP, ILLUSTRATOR, PHOTOSHOP, XD, SVG</p>
+                    <p id="thanksgiving-technologies">Technologies: HTML, CSS/SASS, JavaScript, GSAP, ILLUSTRATOR, PHOTOSHOP, XD, SVG</p>
                 </div>
             </div>
 
@@ -129,7 +129,7 @@ const renderProjects = () => {
                 <div id="project-image-container-term-tracker" class="image-container background-image">
                     <div class="project-overlay">
                         <div>
-                            <img src="./styles/images/code.svg">
+                            <a href="https://github.com/JulianEMF/student-term-tracker" target="_blank"><img src="./styles/images/code.svg"></a>
                             <p class="code">Code</p>
                         </div>
                     </div>

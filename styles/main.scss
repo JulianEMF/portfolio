@@ -75,7 +75,7 @@
         left: 0;
         width: 100%;
         height: 0.2rem;
-        background-color: rgb(73, 10, 10);
+        background-color: rgb(104, 0, 0);
         transition: opacity 0.5s, transform 0.5s;
         opacity: 1;
         transform: translate3d(-100%, 0, 0);
@@ -137,6 +137,55 @@
         font-style: italic;
     }
 
+    .shimmer {
+        text-align: center;
+        color: rgba(255,255,255,0.8);
+        background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+        background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+        background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+        background-size: 125px 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        animation-name: shimmer;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+      }
+      @-moz-keyframes shimmer {
+        0% {
+          background-position: top left;
+        }
+        100% {
+          background-position: top right;
+        }
+      }
+      @-webkit-keyframes shimmer {
+        0% {
+          background-position: top left;
+        }
+        100% {
+          background-position: top right;
+        }
+      }
+      @-o-keyframes shimmer {
+        0% {
+          background-position: top left;
+        }
+        100% {
+          background-position: top right;
+        }
+      }
+      @keyframes shimmer {
+        0% {
+          background-position: top left;
+        }
+        100% {
+          background-position: top right;
+        }
+      }
+
     #rings-container{
         grid-column: 2/3;
         grid-row: 1/2;
@@ -194,7 +243,7 @@
 
     #contact-button-container button{
         width: 6em;
-        height: 2.5em;
+        height: 2.25em;
         font-size: 1.5em;
         font-family: 'Cairo';
         border-radius: 6px;
@@ -210,8 +259,11 @@
         font-weight: bold;
         cursor: pointer;
         box-shadow:  7px 7px 5px #382929;
-        transform: translateX(-3px) translateY(-3px);
-        transition-duration: 0.5s;   
+        transition-duration: 0.2s;   
+    }
+
+    button:active{
+        transform: translate(2px, 2px);
     }
 
     .footer{

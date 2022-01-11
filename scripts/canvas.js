@@ -67,10 +67,10 @@ function Circle(x, y, dx, dy, radius){
         // CIRCLE SCALES TO MAXRADIUS, AND THEN TO MINRADIUS
         if(mouse.x - this.x < 50 && mouse.x - this.x > -50 && mouse.y - this.y<50 && mouse.y - this.y > -50){
             if(this.radius<maxRadius){
-                this.radius += 0.5;
+                this.radius += 0.2;
             }
         }else if(this.radius>this.minRadius){
-            this.radius -= 0.5;
+            this.radius -= 0.2;
         }
         this.draw();
     }
