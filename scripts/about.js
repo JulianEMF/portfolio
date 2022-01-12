@@ -37,11 +37,10 @@ const renderAbout = () => {
             <div><img src="./styles/images/technologies/bootstrap.svg" class="technology-image" alt="Bootstrap logo"><p>Bootstrap</p></div>
             <div><img src="./styles/images/technologies/photoshop.svg" class="technology-image" alt="Photoshop logo"><p>Photoshop</p></div>
             <div><img src="./styles/images/technologies/illustrator.svg" class="technology-image" alt="Illustrator logo"><p>Illustrator</p></div>
-            <div><img src="./styles/images/technologies/xd.svg" class="technology-image" alt="Adobe Xd logo"><p>Adobe XD</p></div>
+            <div><img src="./styles/images/technologies/xd.svg" class="technology-image" alt="Adobe Xd logo"><p>XD</p></div>
             <div><img src="./styles/images/technologies/sass.svg" class="technology-image" alt="Sass logo"><p>Sass</p></div>
             <div><img src="./styles/images/technologies/github.svg" class="technology-image" alt="Github logo"><p>Github</p></div>
             <div><img src="./styles/images/technologies/vs-code.svg" class="technology-image" alt="Visual Studio logo"><p>VS Code</p></div>
-            
         </div>
     `;
 
