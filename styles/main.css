@@ -566,8 +566,9 @@
   .close-button-container:hover {
     cursor: pointer;
   }
-  .close-button-container svg {
-    width: 100%;
+  #small-menu-close-button {
+    width: 2em;
+    height: 2em;
     fill: #3D3D3D;
   }
   #small-navigation-items {

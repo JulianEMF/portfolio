@@ -25,21 +25,23 @@ const renderAbout = () => {
         <p id="about-third">Since I can remember, problem solving and creating impactful visual elements have been two of my biggest passions. Therefore, coding and designing front end applications became extremely rewarding activities for me.</p>
         <p id="about-fourth">When I'm not learning new technologies I can be found riding my motorcycle, listening to classical and opera music, drawing, playing videogames and mastering a few recipes in the kitchen.</p>
         <h2 id="technologies-used">Technologies I use</h2>
+       
         <div id="technologies-container">
-            <img src="./styles/images/technologies/html.svg" alt="HTML logo">
-            <img src="./styles/images/technologies/css.svg" alt="Css logo">
-            <img src="./styles/images/technologies/javascript.svg" alt="Javascript logo">
-            <img src="./styles/images/technologies/jquery.svg" alt="Jquery logo">
-            <img src="./styles/images/technologies/react-js.svg" alt="React logo">
-            <img src="./styles/images/technologies/node-js.svg" alt="NodeJs logo">
-            <img src="./styles/images/technologies/bootstrap.svg" alt="Bootstrap logo">
-            <img src="./styles/images/technologies/photoshop.svg" alt="Photoshop logo">
-            <img src="./styles/images/technologies/illustrator.svg" alt="Illustrator logo">
-            <img src="./styles/images/technologies/xd.svg" alt="Adobe Xd logo">
-            <img src="./styles/images/technologies/sass.svg" alt="Sass logo">
-            <img src="./styles/images/technologies/github.svg" alt="Github logo">
-            <img src="./styles/images/technologies/vs-code.svg" alt="Visual Studio logo">
-            <img src="./styles/images/technologies/java.svg" alt="Java logo">     
+            <div><img src="./styles/images/technologies/html.svg" class="technology-image" alt="HTML logo"><p>HTML</p></div>
+            <div><img src="./styles/images/technologies/css.svg" class="technology-image" alt="Css logo"><p>CSS</p></div>
+            <div><img src="./styles/images/technologies/javascript.svg" class="technology-image" alt="Javascript logo"><p>JavaScript</p></div>
+            <div><img src="./styles/images/technologies/jquery.svg" class="technology-image" alt="Jquery logo"><p>JQuery</p></div>
+            <div><img src="./styles/images/technologies/react-js.svg" class="technology-image" alt="React logo"><p>React Js</p></div>
+            <div><img src="./styles/images/technologies/node-js.svg" class="technology-image" alt="NodeJs logo"><p>Node Js</p></div>
+            <div><img src="./styles/images/technologies/java.svg" class="technology-image" alt="Java logo"><p>Java</p></div> 
+            <div><img src="./styles/images/technologies/bootstrap.svg" class="technology-image" alt="Bootstrap logo"><p>Bootstrap</p></div>
+            <div><img src="./styles/images/technologies/photoshop.svg" class="technology-image" alt="Photoshop logo"><p>Photoshop</p></div>
+            <div><img src="./styles/images/technologies/illustrator.svg" class="technology-image" alt="Illustrator logo"><p>Illustrator</p></div>
+            <div><img src="./styles/images/technologies/xd.svg" class="technology-image" alt="Adobe Xd logo"><p>Adobe XD</p></div>
+            <div><img src="./styles/images/technologies/sass.svg" class="technology-image" alt="Sass logo"><p>Sass</p></div>
+            <div><img src="./styles/images/technologies/github.svg" class="technology-image" alt="Github logo"><p>Github</p></div>
+            <div><img src="./styles/images/technologies/vs-code.svg" class="technology-image" alt="Visual Studio logo"><p>VS Code</p></div>
+            
         </div>
     `;
 
@@ -51,7 +53,7 @@ const renderAbout = () => {
     const cross = document.querySelector("#about-cross");
     cross.addEventListener('click', () => {
         closeAboutSection();
-    });
+    }); 
 }
 
 const addAboutLinkListeners = () => {
@@ -96,4 +98,8 @@ const tiltAboutSection = () => {
 }
 
 addAboutLinkListeners();
+
+
+
+
 

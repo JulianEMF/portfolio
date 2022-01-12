@@ -36,7 +36,7 @@ const renderProjects = () => {
                     <h2>Catering Management Application</h2>
                 </div>
                 <div id="project-text-container" class="overflow-scroll invisible">
-                    <p id="catering-description">This is a web based application to assist in the daily operations of a catering company. It uses ExpressJs to expedite the creation of a server and its routes. This application integrates a secure login that uses encryption to store a hash of the password in the database. Functionalities to perform CRUD operations on an PostgreSQL database are also included. The alert system was created with the use of classes to display skills in the object oriented programming methodology. Main features like encapsulation, polymorphism, and inheritance are demonstrated in the code.</p>
+                    <p id="catering-description">This is a web based application to assist in the daily operations of a catering company. It uses ExpressJs to expedite the creation of a server and its routes. This application integrates a secure login that uses encryption to store a hash of the password in the database. Functionalities to perform CRUD operations on a PostgreSQL database are also included. The alert system was created with the use of classes to display skills in the object oriented programming methodology. Main features like encapsulation, polymorphism, and inheritance are demonstrated in the code.</p>
                     <p id="catering-technologies">Technologies: HTML, CSS, JavaScript, NodeJs, ExpressJs, PostgreSQL, Bcrypt, AXIOS, ILLUSTRATOR, XD, SVG</p>
                 </div>
             </div>
@@ -76,7 +76,7 @@ const renderProjects = () => {
                     <h2>Exortus</h2>
                 </div>
                 <div id="project-text-container" class="overflow-scroll invisible">
-                    <p id="exortus-description">Exortus is a complete website about a fictional transportation company that includes API requests to OpenWeather, images altered in photoshop and intricated animations. All the elements like the burger menu, accordion, slideshows, etc. have been programmed in JavaScript without the use of any libraries or frameworks.</p>
+                    <p id="exortus-description">Exortus is a website about a fictional transportation company that includes API requests to OpenWeather, images altered in photoshop and intricated animations. Elements like the burger menu, the navigation bar, and the slideshow have been programmed in JavaScript without the use of any libraries or frameworks.</p>
                     <p id="exortus-technologies">Technologies: HTML, CSS/SASS, JavaScript, GSAP, AXIOS, ILLUSTRATOR, PHOTOSHOP, XD, SVG</p>
                 </div>
             </div>
