@@ -160,6 +160,7 @@
 
 @media screen and (max-width: 500px) {
   .contact-section {
+    width: 90vw;
     padding: 3rem 1rem;
     left: 6%;
     right: 6%;
