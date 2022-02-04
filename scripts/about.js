@@ -27,7 +27,7 @@ const renderAbout = () => {
         <h2 id="technologies-used">Technologies I use</h2>
        
         <div id="technologies-container">
-            <div><img src="../images/technologies/html.svg" class="technology-image" alt="HTML logo"><p>HTML</p></div>
+            <div><img src="../../images/technologies/html.svg" class="technology-image" alt="HTML logo"><p>HTML</p></div>
             <div><img src="../images/technologies/css.svg" class="technology-image" alt="Css logo"><p>CSS</p></div>
             <div><img src="../images/technologies/javascript.svg" class="technology-image" alt="Javascript logo"><p>JavaScript</p></div>
             <div><img src="../images/technologies/jquery.svg" class="technology-image" alt="Jquery logo"><p>JQuery</p></div>
