@@ -15,134 +15,18 @@ const renderProjects = () => {
     const content = 
     `  
         <div id="close-projects-container">
-            <img id="projects-cross" src="./styles/images/cross.svg" alt="Close Arrow Icon">
+            <img id="projects-cross" src="../images/cross.svg" alt="Close Arrow Icon">
         </div>
+
         <h1 id="projects-title">Projects</h1>
+
         <div id="projects-container">
-            <div id="project-container" class="card">
-                <div id="project-image-container-catering" class="image-container background-image">
-                    <div class="project-overlay">
-                        <div>
-                            <a href="https://catering-management.herokuapp.com/" target="_blank"><img src="./styles/images/web.svg"></a>
-                            <p class="website">Website</p>
-                        </div>
-                        <div>
-                            <a href="https://github.com/JulianEMF/catering-management-application" target="_blank"><img src="./styles/images/code.svg"></a>
-                            <p class="code">Code</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-title-container">
-                    <h2>Catering Management Application</h2>
-                </div>
-                <div id="project-text-container" class="overflow-scroll invisible">
-                    <p id="catering-description">This is a web based application to assist in the daily operations of a catering company. It uses ExpressJs to expedite the creation of a server and its routes. This application integrates a secure login that uses encryption to store a hash of the password in the database. Functionalities to perform CRUD operations on a PostgreSQL database are also included. The alert system was created with the use of classes to display skills in the object oriented programming methodology. Main features like encapsulation, polymorphism, and inheritance are demonstrated in the code.</p>
-                    <p id="catering-technologies">Technologies: HTML, CSS, JavaScript, NodeJs, ExpressJs, PostgreSQL, Bcrypt, AXIOS, ILLUSTRATOR, XD, SVG</p>
-                </div>
-            </div>
-
-            <div id="project-container" class="card">
-                <div id="project-image-container-scheduler" class="image-container background-image">
-                    <div class="project-overlay">
-                        <div>
-                            <a href="https://github.com/JulianEMF/scheduler" target="_blank"><img src="./styles/images/code.svg"></a>
-                            <p class="code">Code</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-title-container">
-                    <h2>Scheduler</h2>
-                </div>
-                <div id="project-text-container" class="overflow-scroll invisible">
-                    <p id="scheduler-description">This is a Java application with an integrated graphic interface that allows for appointment management. It allows to add contacts, customers, and appointments. The information is displayed in tables by using observable lists. The application implements functionalities that create, read, update, and delete data from the local database that is connected to.</p>
-                    <p id="scheduler-technologies">Technologies: Java, JavaFX, SQL</p>
-                </div>
-            </div>
-
-            <div id="project-container" class="card">
-                <div id="project-image-container-exortus" class="image-container background-image">
-                    <div class="project-overlay">
-                        <div>
-                            <a href="https://julianemf.github.io/exortus/" target="_blank"><img src="./styles/images/web.svg"></a>
-                            <p class="website">Website</p>
-                        </div>
-                        <div>
-                        <a href="https://github.com/JulianEMF/exortus" target="_blank"><img src="./styles/images/code.svg"></a>
-                            <p class="code">Code</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-title-container">
-                    <h2>Exortus</h2>
-                </div>
-                <div id="project-text-container" class="overflow-scroll invisible">
-                    <p id="exortus-description">Exortus is a website about a fictional transportation company that includes API requests to OpenWeather, images altered in photoshop and intricated animations. Elements like the burger menu, the navigation bar, and the slideshow have been programmed in JavaScript without the use of any libraries or frameworks.</p>
-                    <p id="exortus-technologies">Technologies: HTML, CSS/SASS, JavaScript, GSAP, AXIOS, ILLUSTRATOR, PHOTOSHOP, XD, SVG</p>
-                </div>
-            </div>
-
-            <div id="project-container" class="card">
-                <div id="project-image-container-cooks-treat" class="image-container background-image">
-                    <div class="project-overlay">
-                        <div>
-                            <a href="https://cooks-treat.netlify.app/" target="_blank"><img src="./styles/images/web.svg"></a>
-                            <p class="website">Website</p>
-                        </div>
-                        <div>
-                            <a href="https://github.com/JulianEMF/cooks-treat" target="_blank"><img src="./styles/images/code.svg"></a>
-                            <p class="code">Code</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-title-container">
-                    <h2>Cook's Treat</h2>
-                </div>
-                <div id="project-text-container" class="invisible overflow-scroll">
-                    <p id="cooks-treat-description">Cook's Treat is an application that requests recipes from the Tasty API, and returns the results in an organized way using React Js to assist with the content organization.</p>
-                    <p id="cooks-treat-technologies">Technologies: HTML, CSS/SASS, JavaScript, React, AXIOS, ILLUSTRATOR, PHOTOSHOP, XD, SVG.</p>
-                </div>
-            </div>
-
-            <div id="project-container" class="card">
-                <div id="project-image-container-thanksgiving" class="image-container background-image">
-                    <div class="project-overlay">
-                        <div>
-                            <a href="https://julianemf.github.io/thanksgiving/" target="_blank"><img src="./styles/images/web.svg"></a>
-                            <p class="website">Website</p>
-                        </div>
-                        <div>
-                            <a href="https://github.com/JulianEMF/thanksgiving" target="_blank"><img src="./styles/images/code.svg"></a>
-                            <p class="code">Code</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-title-container">
-                    <h2>I AM THANKSGIVING</h2>
-                </div>
-                <div id="project-text-container" class="overflow-scroll invisible">
-                    <p id="thanksgiving-description">I AM THANKSGIVING is the landing page for a potential new restaurant in the city of Boston. Most visual elements have been altered using photoshop, while the SVG elements were edited with Illustrator.</p>
-                    <p id="thanksgiving-technologies">Technologies: HTML, CSS/SASS, JavaScript, GSAP, ILLUSTRATOR, PHOTOSHOP, XD, SVG</p>
-                </div>
-            </div>
-
-            <div id="project-container" class="card">
-                <div id="project-image-container-term-tracker" class="image-container background-image">
-                    <div class="project-overlay">
-                        <div>
-                            <a href="https://github.com/JulianEMF/student-term-tracker" target="_blank"><img src="./styles/images/code.svg"></a>
-                            <p class="code">Code</p>
-                        </div>
-                    </div>
-                </div>
-            <div class="project-title-container">
-                <h2>Student Term Tracker</h2>
-            </div>
-            <div id="project-text-container" class="overflow-scroll invisible">
-                <p id="student-term-tracker-description">The student term tracker application is a mobile application to track a student's progress throughout a college term. The user can add terms, courses, and assessments. They can also associate assessments to courses, and courses to terms. Alerts can be set to point out that a new term, or course is beginning, or that an assessment is due. The application uses the Java language in combination with built-in methods from the android library in order to instantiate a local database, create entities, query the database, and implement fragments, and activities.</p>
-                <p id="student-term-tracker-technologies">Technologies: Java, Android Studio</p>
-            </div>
-        </div>
-
+            ${cateringProject}
+            ${schedulerProject}
+            ${exortusProject}
+            ${cooksTreatProject}
+            ${thanksgivingProject}
+            ${termTrackerProject}
         </div>
     `;
 
@@ -162,6 +46,7 @@ const renderProjects = () => {
     if(detectWidth() > 501){
         eachProject.forEach(item => {
             item.addEventListener('mouseenter', (e)=>{
+                console.log(item)
                 onCardHover(item);          
             });
             item.addEventListener('mouseleave', (e)=>{
@@ -171,10 +56,145 @@ const renderProjects = () => {
     }   
 }
 
+const cateringProject = `
+    <div id="project-container" class="card">
+        <div id="project-image-container-catering" class="image-container background-image">
+            <div class="project-overlay">
+                <div>
+                    <a href="https://catering-management.herokuapp.com/" target="_blank"><img src="../images/web.svg"></a>
+                    <p class="website">Website</p>
+                </div>
+                <div>
+                    <a href="https://github.com/JulianEMF/catering-management-application" target="_blank"><img src="../images/code.svg"></a>
+                    <p class="code">Code</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-title-container">
+            <h2>Catering Management Application</h2>
+        </div>
+        <div id="project-text-container" class="overflow-scroll invisible">
+            <p id="catering-description">This is a web based application to assist in the daily operations of a catering company. It uses ExpressJs to expedite the creation of a server and its routes. This application integrates a secure login that uses encryption to store a hash of the password in the database. Functionalities to perform CRUD operations on a PostgreSQL database are also included. The alert system was created with the use of classes to display skills in the object oriented programming methodology. Main features like encapsulation, polymorphism, and inheritance are demonstrated in the code.</p>
+            <p id="catering-technologies">Technologies: HTML, CSS, JavaScript, NodeJs, ExpressJs, PostgreSQL, Bcrypt, AXIOS, ILLUSTRATOR, XD, SVG</p>
+        </div>
+    </div>
+`;
+
+const schedulerProject = `
+    <div id="project-container" class="card">
+        <div id="project-image-container-scheduler" class="image-container background-image">
+            <div class="project-overlay">
+                <div>
+                    <a href="https://github.com/JulianEMF/scheduler" target="_blank"><img src="../images/code.svg"></a>
+                    <p class="code">Code</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-title-container">
+            <h2>Scheduler</h2>
+        </div>
+        <div id="project-text-container" class="overflow-scroll invisible">
+            <p id="scheduler-description">This is a Java application with an integrated graphic interface that allows for appointment management. It allows to add contacts, customers, and appointments. The information is displayed in tables by using observable lists. The application implements functionalities that create, read, update, and delete data from the local database that is connected to.</p>
+            <p id="scheduler-technologies">Technologies: Java, JavaFX, SQL</p>
+        </div>
+    </div>
+`;
+
+const exortusProject = `
+    <div id="project-container" class="card">
+        <div id="project-image-container-exortus" class="image-container background-image">
+            <div class="project-overlay">
+                <div>
+                    <a href="https://julianemf.github.io/exortus/" target="_blank"><img src="../images/web.svg"></a>
+                    <p class="website">Website</p>
+                </div>
+                <div>
+                <a href="https://github.com/JulianEMF/exortus" target="_blank"><img src="../images/code.svg"></a>
+                    <p class="code">Code</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-title-container">
+            <h2>Exortus</h2>
+        </div>
+        <div id="project-text-container" class="overflow-scroll invisible">
+            <p id="exortus-description">Exortus is a website about a fictional transportation company that includes API requests to OpenWeather, images altered in photoshop and intricated animations. Elements like the burger menu, the navigation bar, and the slideshow have been programmed in JavaScript without the use of any libraries or frameworks.</p>
+            <p id="exortus-technologies">Technologies: HTML, CSS/SASS, JavaScript, GSAP, AXIOS, ILLUSTRATOR, PHOTOSHOP, XD, SVG</p>
+        </div>
+    </div>
+`;
+
+const cooksTreatProject = `
+    <div id="project-container" class="card">
+        <div id="project-image-container-cooks-treat" class="image-container background-image">
+            <div class="project-overlay">
+                <div>
+                    <a href="https://cooks-treat.netlify.app/" target="_blank"><img src="../images/web.svg"></a>
+                    <p class="website">Website</p>
+                </div>
+                <div>
+                    <a href="https://github.com/JulianEMF/cooks-treat" target="_blank"><img src="../images/code.svg"></a>
+                    <p class="code">Code</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-title-container">
+            <h2>Cook's Treat</h2>
+        </div>
+        <div id="project-text-container" class="invisible overflow-scroll">
+            <p id="cooks-treat-description">Cook's Treat is an application that requests recipes from the Tasty API, and returns the results in an organized way using React Js to assist with the content organization.</p>
+            <p id="cooks-treat-technologies">Technologies: HTML, CSS/SASS, JavaScript, React, AXIOS, ILLUSTRATOR, PHOTOSHOP, XD, SVG.</p>
+        </div>
+    </div>
+`;
+
+const thanksgivingProject = `
+    <div id="project-container" class="card">
+        <div id="project-image-container-thanksgiving" class="image-container background-image">
+            <div class="project-overlay">
+                <div>
+                    <a href="https://julianemf.github.io/thanksgiving/" target="_blank"><img src="../images/web.svg"></a>
+                    <p class="website">Website</p>
+                </div>
+                <div>
+                    <a href="https://github.com/JulianEMF/thanksgiving" target="_blank"><img src="../images/code.svg"></a>
+                    <p class="code">Code</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-title-container">
+            <h2>I AM THANKSGIVING</h2>
+        </div>
+        <div id="project-text-container" class="overflow-scroll invisible">
+            <p id="thanksgiving-description">I AM THANKSGIVING is the landing page for a potential new restaurant in the city of Boston. Most visual elements have been altered using photoshop, while the SVG elements were edited with Illustrator.</p>
+            <p id="thanksgiving-technologies">Technologies: HTML, CSS/SASS, JavaScript, GSAP, ILLUSTRATOR, PHOTOSHOP, XD, SVG</p>
+        </div>
+    </div>
+`;
+
+const termTrackerProject = `
+    <div id="project-container" class="card">
+        <div id="project-image-container-term-tracker" class="image-container background-image">
+            <div class="project-overlay">
+                <div>
+                    <a href="https://github.com/JulianEMF/student-term-tracker" target="_blank"><img src="../images/code.svg"></a>
+                    <p class="code">Code</p>
+                </div>
+            </div>
+        </div>
+    <div class="project-title-container">
+        <h2>Student Term Tracker</h2>
+    </div>
+    <div id="project-text-container" class="overflow-scroll invisible">
+        <p id="student-term-tracker-description">The student term tracker application is a mobile application to track a student's progress throughout a college term. The user can add terms, courses, and assessments. They can also associate assessments to courses, and courses to terms. Alerts can be set to point out that a new term, or course is beginning, or that an assessment is due. The application uses the Java language in combination with built-in methods from the android library in order to instantiate a local database, create entities, query the database, and implement fragments, and activities.</p>
+        <p id="student-term-tracker-technologies">Technologies: Java, Android Studio</p>
+    </div>
+`;
+
+
 // Detects the window width to determine what animation to use for the project cards
 const detectWidth = () => {
-    const width = window.innerWidth;
-    return width;
+    return window.innerWidth;
 }
 
 window.addEventListener('resize', detectWidth);
@@ -248,7 +268,7 @@ const onCardHover = (item) => {
     anime({
         targets: projectDescription,
         duration: 750,
-        background: ['#fff','radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(176,176,176,1) 100%)'],
+        // background: ['#fff','radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(176,176,176,1) 100%)'],
     });
     anime({
         targets: overlay,

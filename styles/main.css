@@ -299,12 +299,12 @@
     color: white;
     -webkit-box-shadow: 5px 5px 5px #382929;
             box-shadow: 5px 5px 5px #382929;
+    cursor: pointer;
   }
   #contact-button-container button:hover {
     background-color: white;
-    color: #3b0808;
+    color: #3d0000;
     font-weight: bold;
-    cursor: pointer;
     -webkit-box-shadow: 7px 7px 5px #382929;
             box-shadow: 7px 7px 5px #382929;
     -webkit-transition-duration: 0.2s;
@@ -313,6 +313,8 @@
   button:active {
     -webkit-transform: translate(2px, 2px);
             transform: translate(2px, 2px);
+    -webkit-box-shadow: 2px 2px 2px #382929;
+            box-shadow: 2px 2px 2px #382929;
   }
   .footer {
     height: 80px;
@@ -692,7 +694,7 @@
   }
   #contact-button-container button:hover {
     background-color: white;
-    color: #3b0808;
+    color: #3d0000;
     font-weight: bold;
     cursor: pointer;
     -webkit-box-shadow: 7px 7px 5px #382929;

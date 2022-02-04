@@ -16,6 +16,7 @@
           backdrop-filter: blur(4px);
   padding: 3em 3em;
   color: white;
+  font-family: 'Cairo';
 }
 
 #close-contact-container {
@@ -52,7 +53,6 @@
 
 #contact-section h1, #contact-section h2 {
   text-align: center;
-  font-family: 'Cairo';
   font-size: 2em;
   letter-spacing: 2px;
   margin-top: 0;
@@ -89,9 +89,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 1rem;
 }
 
 .contact-form input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 16rem;
   height: 2rem;
   border-radius: 6px;
@@ -100,11 +103,18 @@
   border-color: white;
   -webkit-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
           box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
-  text-align: center;
+  text-align: left;
   font-family: 'Open Sans';
+  padding: 0 1rem;
+}
+
+.contact-form input:focus {
+  background-color: white;
 }
 
 .contact-form textarea {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 16rem;
   max-width: 16rem;
   min-width: 16rem;
@@ -115,28 +125,15 @@
   border-color: white;
   -webkit-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
           box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
-  text-align: center;
+  text-align: left;
   font-family: 'Open Sans';
+  padding: 0.5rem 1rem;
 }
 
-.contact-form textarea::-webkit-input-placeholder {
-  font-family: 'Open Sans';
-  text-align: center;
-}
-
-.contact-form textarea:-ms-input-placeholder {
-  font-family: 'Open Sans';
-  text-align: center;
-}
-
-.contact-form textarea::-ms-input-placeholder {
-  font-family: 'Open Sans';
-  text-align: center;
-}
-
-.contact-form textarea::placeholder {
-  font-family: 'Open Sans';
-  text-align: center;
+label {
+  width: 16rem;
+  text-align: left;
+  margin: 0;
 }
 
 .contact-form button {
@@ -150,12 +147,13 @@
   color: white;
   -webkit-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
           box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .contact-form button:hover {
-  cursor: pointer;
   background-color: white;
   color: #3d0000;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 500px) {

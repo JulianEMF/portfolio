@@ -17,7 +17,7 @@ const renderAbout = () => {
     const content = 
     `  
         <div id="close-about-container">
-            <img id="about-cross" src="./styles/images/cross.svg" alt="Close Arrow Icon">
+            <img id="about-cross" src="../images/cross.svg" alt="Close Arrow Icon">
         </div>
         <h1>About</h1>
         <p id="about-first">I am Julian Montoya Franco, a Front End Developer located in Boston, Massachusetts.</p>
@@ -27,20 +27,20 @@ const renderAbout = () => {
         <h2 id="technologies-used">Technologies I use</h2>
        
         <div id="technologies-container">
-            <div><img src="./styles/images/technologies/html.svg" class="technology-image" alt="HTML logo"><p>HTML</p></div>
-            <div><img src="./styles/images/technologies/css.svg" class="technology-image" alt="Css logo"><p>CSS</p></div>
-            <div><img src="./styles/images/technologies/javascript.svg" class="technology-image" alt="Javascript logo"><p>JavaScript</p></div>
-            <div><img src="./styles/images/technologies/jquery.svg" class="technology-image" alt="Jquery logo"><p>JQuery</p></div>
-            <div><img src="./styles/images/technologies/react-js.svg" class="technology-image" alt="React logo"><p>React Js</p></div>
-            <div><img src="./styles/images/technologies/node-js.svg" class="technology-image" alt="NodeJs logo"><p>Node Js</p></div>
-            <div><img src="./styles/images/technologies/java.svg" class="technology-image" alt="Java logo"><p>Java</p></div> 
-            <div><img src="./styles/images/technologies/bootstrap.svg" class="technology-image" alt="Bootstrap logo"><p>Bootstrap</p></div>
-            <div><img src="./styles/images/technologies/photoshop.svg" class="technology-image" alt="Photoshop logo"><p>Photoshop</p></div>
-            <div><img src="./styles/images/technologies/illustrator.svg" class="technology-image" alt="Illustrator logo"><p>Illustrator</p></div>
-            <div><img src="./styles/images/technologies/xd.svg" class="technology-image" alt="Adobe Xd logo"><p>XD</p></div>
-            <div><img src="./styles/images/technologies/sass.svg" class="technology-image" alt="Sass logo"><p>Sass</p></div>
-            <div><img src="./styles/images/technologies/github.svg" class="technology-image" alt="Github logo"><p>Github</p></div>
-            <div><img src="./styles/images/technologies/vs-code.svg" class="technology-image" alt="Visual Studio logo"><p>VS Code</p></div>
+            <div><img src="../images/technologies/html.svg" class="technology-image" alt="HTML logo"><p>HTML</p></div>
+            <div><img src="../images/technologies/css.svg" class="technology-image" alt="Css logo"><p>CSS</p></div>
+            <div><img src="../images/technologies/javascript.svg" class="technology-image" alt="Javascript logo"><p>JavaScript</p></div>
+            <div><img src="../images/technologies/jquery.svg" class="technology-image" alt="Jquery logo"><p>JQuery</p></div>
+            <div><img src="../images/technologies/react-js.svg" class="technology-image" alt="React logo"><p>React Js</p></div>
+            <div><img src="../images/technologies/node-js.svg" class="technology-image" alt="NodeJs logo"><p>Node Js</p></div>
+            <div><img src="../images/technologies/java.svg" class="technology-image" alt="Java logo"><p>Java</p></div> 
+            <div><img src="../images/technologies/bootstrap.svg" class="technology-image" alt="Bootstrap logo"><p>Bootstrap</p></div>
+            <div><img src="../images/technologies/photoshop.svg" class="technology-image" alt="Photoshop logo"><p>Photoshop</p></div>
+            <div><img src="../images/technologies/illustrator.svg" class="technology-image" alt="Illustrator logo"><p>Illustrator</p></div>
+            <div><img src="../images/technologies/xd.svg" class="technology-image" alt="Adobe Xd logo"><p>XD</p></div>
+            <div><img src="../images/technologies/sass.svg" class="technology-image" alt="Sass logo"><p>Sass</p></div>
+            <div><img src="../images/technologies/github.svg" class="technology-image" alt="Github logo"><p>Github</p></div>
+            <div><img src="../images/technologies/vs-code.svg" class="technology-image" alt="Visual Studio logo"><p>VS Code</p></div>
         </div>
     `;
 

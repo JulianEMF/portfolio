@@ -72,9 +72,6 @@ const translate = (languageData) => {
     $('#student-term-tracker-technologies').text(languageData.studentTermTrackerTechnologies);
     $('#contact-title').text(languageData.contactTitle);
     $('#contact-text').text(languageData.contactText);
-    $('#input-name').attr('placeholder', languageData.namePlaceholder);
-    $('#input-email').attr('placeholder', languageData.emailPlaceholder);
-    $('#textarea-message').attr('placeholder', languageData.messagePlaceholder);
     $('.submit-button').text(languageData.submitButton);
 }
 

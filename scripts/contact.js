@@ -16,16 +16,25 @@ const renderContact = () => {
     const content = 
     `  
         <div id="close-contact-container">
-            <img id="contact-cross" src="./styles/images/cross.svg" alt="Close Arrow Icon">
+            <img id="contact-cross" src="../images/cross.svg" alt="Close Arrow Icon">
         </div>
         <div>
             <h1 id="contact-title">Contact</h1>
             <div id="contact-content">
                 <p id="contact-text">If you are interested in hiring me or just chatting about web development, motorcycles, music, or life. Contact me:</p>
                 <form class="contact-form" action="https://formspree.io/f/mjvpnweb" method="POST"> 
-                    <input id="input-name" type="text" name="name" placeholder="Name" required><br>
-                    <input id="input-email" type="email" name="email" placeholder="E-mail" required cols="30" rows="10" required><br>
-                    <textarea id="textarea-message" type="text" name="message" placeholder="Message"></textarea><br>
+                    <div>
+                        <label for="input-name">Name:</label><br>
+                        <input id="input-name" type="text" name="name" required><br>
+                    </div>
+                    <div>
+                        <label for="input-email">Email:</label><br>
+                        <input id="input-email" type="email" name="email" required cols="30" rows="10" required><br>
+                    </div>
+                    <div>
+                        <label for="textarea-message">Message:</label><br>
+                        <textarea id="textarea-message" type="text" name="message" required></textarea>
+                    </div>
                     <button class="submit-button" type="submit" name="submit">Submit</button>
                 </form>
             </div>

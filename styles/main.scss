@@ -250,20 +250,21 @@
         border-width: 0;
         background-color:#3d0000;
         color: white;
-        box-shadow:  5px 5px 5px #382929;
+        box-shadow: 5px 5px 5px #382929;
+        cursor: pointer;
     }
 
     #contact-button-container button:hover{
         background-color: white;
-        color: rgb(59, 8, 8);
-        font-weight: bold;
-        cursor: pointer;
+        color: #3d0000;
+        font-weight: bold;        
         box-shadow:  7px 7px 5px #382929;
-        transition-duration: 0.2s;   
+        transition-duration: 0.2s;
     }
 
     button:active{
         transform: translate(2px, 2px);
+        box-shadow: 2px 2px 2px #382929;
     }
 
     .footer{
@@ -573,7 +574,7 @@
 
     #contact-button-container button:hover{
         background-color: white;
-        color: rgb(59, 8, 8);
+        color: #3d0000;
         font-weight: bold;
         cursor: pointer;
         box-shadow:  7px 7px 5px #382929;
