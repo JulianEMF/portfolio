@@ -15,7 +15,7 @@ const renderProjects = () => {
     const content = 
     `  
         <div id="close-projects-container">
-            <img id="projects-cross" src="../images/cross.svg" alt="Close Arrow Icon">
+            <img id="projects-cross" src="./images/cross.svg" alt="Close Arrow Icon">
         </div>
 
         <h1 id="projects-title">Projects</h1>
@@ -61,11 +61,11 @@ const cateringProject = `
         <div id="project-image-container-catering" class="image-container background-image">
             <div class="project-overlay">
                 <div>
-                    <a href="https://catering-management.herokuapp.com/" target="_blank"><img src="../images/web.svg"></a>
+                    <a href="https://catering-management.herokuapp.com/" target="_blank"><img src="./images/web.svg"></a>
                     <p class="website">Website</p>
                 </div>
                 <div>
-                    <a href="https://github.com/JulianEMF/catering-management-application" target="_blank"><img src="../images/code.svg"></a>
+                    <a href="https://github.com/JulianEMF/catering-management-application" target="_blank"><img src="./images/code.svg"></a>
                     <p class="code">Code</p>
                 </div>
             </div>
@@ -85,7 +85,7 @@ const schedulerProject = `
         <div id="project-image-container-scheduler" class="image-container background-image">
             <div class="project-overlay">
                 <div>
-                    <a href="https://github.com/JulianEMF/scheduler" target="_blank"><img src="../images/code.svg"></a>
+                    <a href="https://github.com/JulianEMF/scheduler" target="_blank"><img src="./images/code.svg"></a>
                     <p class="code">Code</p>
                 </div>
             </div>
@@ -105,11 +105,11 @@ const exortusProject = `
         <div id="project-image-container-exortus" class="image-container background-image">
             <div class="project-overlay">
                 <div>
-                    <a href="https://julianemf.github.io/exortus/" target="_blank"><img src="../images/web.svg"></a>
+                    <a href="https://julianemf.github.io/exortus/" target="_blank"><img src="./images/web.svg"></a>
                     <p class="website">Website</p>
                 </div>
                 <div>
-                <a href="https://github.com/JulianEMF/exortus" target="_blank"><img src="../images/code.svg"></a>
+                <a href="https://github.com/JulianEMF/exortus" target="_blank"><img src="./images/code.svg"></a>
                     <p class="code">Code</p>
                 </div>
             </div>
@@ -129,11 +129,11 @@ const cooksTreatProject = `
         <div id="project-image-container-cooks-treat" class="image-container background-image">
             <div class="project-overlay">
                 <div>
-                    <a href="https://cooks-treat.netlify.app/" target="_blank"><img src="../images/web.svg"></a>
+                    <a href="https://cooks-treat.netlify.app/" target="_blank"><img src="./images/web.svg"></a>
                     <p class="website">Website</p>
                 </div>
                 <div>
-                    <a href="https://github.com/JulianEMF/cooks-treat" target="_blank"><img src="../images/code.svg"></a>
+                    <a href="https://github.com/JulianEMF/cooks-treat" target="_blank"><img src="./images/code.svg"></a>
                     <p class="code">Code</p>
                 </div>
             </div>
@@ -153,11 +153,11 @@ const thanksgivingProject = `
         <div id="project-image-container-thanksgiving" class="image-container background-image">
             <div class="project-overlay">
                 <div>
-                    <a href="https://julianemf.github.io/thanksgiving/" target="_blank"><img src="../images/web.svg"></a>
+                    <a href="https://julianemf.github.io/thanksgiving/" target="_blank"><img src="./images/web.svg"></a>
                     <p class="website">Website</p>
                 </div>
                 <div>
-                    <a href="https://github.com/JulianEMF/thanksgiving" target="_blank"><img src="../images/code.svg"></a>
+                    <a href="https://github.com/JulianEMF/thanksgiving" target="_blank"><img src="./images/code.svg"></a>
                     <p class="code">Code</p>
                 </div>
             </div>
@@ -177,7 +177,7 @@ const termTrackerProject = `
         <div id="project-image-container-term-tracker" class="image-container background-image">
             <div class="project-overlay">
                 <div>
-                    <a href="https://github.com/JulianEMF/student-term-tracker" target="_blank"><img src="../images/code.svg"></a>
+                    <a href="https://github.com/JulianEMF/student-term-tracker" target="_blank"><img src="./images/code.svg"></a>
                     <p class="code">Code</p>
                 </div>
             </div>

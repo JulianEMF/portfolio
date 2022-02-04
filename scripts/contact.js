@@ -16,7 +16,7 @@ const renderContact = () => {
     const content = 
     `  
         <div id="close-contact-container">
-            <img id="contact-cross" src="../images/cross.svg" alt="Close Arrow Icon">
+            <img id="contact-cross" src="./images/cross.svg" alt="Close Arrow Icon">
         </div>
         <div>
             <h1 id="contact-title">Contact</h1>
