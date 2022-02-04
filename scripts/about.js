@@ -17,7 +17,7 @@ const renderAbout = () => {
     const content = 
     `  
         <div id="close-about-container">
-            <img id="about-cross" src="../images/cross.svg" alt="Close Arrow Icon">
+            <img id="about-cross" src="./images/cross.svg" alt="Close Arrow Icon">
         </div>
         <h1>About</h1>
         <p id="about-first">I am Julian Montoya Franco, a Front End Developer located in Boston, Massachusetts.</p>
@@ -27,7 +27,7 @@ const renderAbout = () => {
         <h2 id="technologies-used">Technologies I use</h2>
        
         <div id="technologies-container">
-            <div><img src="../../images/technologies/html.svg" class="technology-image" alt="HTML logo"><p>HTML</p></div>
+            <div><img src="../images/technologies/html.svg" class="technology-image" alt="HTML logo"><p>HTML</p></div>
             <div><img src="../images/technologies/css.svg" class="technology-image" alt="Css logo"><p>CSS</p></div>
             <div><img src="../images/technologies/javascript.svg" class="technology-image" alt="Javascript logo"><p>JavaScript</p></div>
             <div><img src="../images/technologies/jquery.svg" class="technology-image" alt="Jquery logo"><p>JQuery</p></div>

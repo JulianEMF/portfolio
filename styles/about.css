@@ -113,10 +113,9 @@
   padding: 0.5em 0.5em;
 }
 
-img {
-  width: 60px;
-}
-
+/* img{
+    width: 60px;
+} */
 @media screen and (max-width: 500px) {
   .about-section {
     padding: 2rem 1.5rem;
