@@ -48,6 +48,7 @@ const translate = (languageData) => {
     $('#about-link-small').text(languageData.about);
     $('#projects-link-small').text(languageData.projects);
     $('#contact-link-small').text(languageData.contact);
+    $('.shimmer').text(languageData.title);
     $('#contact-button-container button').text(languageData.contact);
     $('#about-section h1').text(languageData.about);
     $('#about-first').text(languageData.aboutFirst);
