@@ -3,7 +3,7 @@
     "projects": "Proyectos",
     "about": "Acerca",
     "contact": "Contacto",
-    "title": "Front-End Developer",
+    "title": "Desarrollador de Software",
     "contactMe": "Contacto",
     "projectTitle": "Proyectos",
     "cateringDescription": "Catering Management es una aplicación web que ayuda en las operaciones diarias de una compañía de catering. Usa ExpressJs para expeditar la creación de un servidor y sus rutas. Esta aplicación integra un método seguro para iniciar sesión que utiliza encriptación para almacenar un hash de la contraseña en la base de datos. Esta aplicación incluye uncionalidades para realizar operaciones de crear, leer, actualizar y eliminar datos de una base de datos PostgreSQL. El sistema de alertas fue create con el uso de clases para demostrar dominio de la metodología de programación orientada a objetos. Las características principales como encapsulación, polimorfismo, y herencia están demostradas en el código.",
