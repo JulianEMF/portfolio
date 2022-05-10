@@ -268,10 +268,11 @@
     .footer{
         height: 80px;
         width: 100vw;
+        padding: 0 0 2rem 0;
         display: flex;
         justify-content: flex-end;
         background: rgb(0,0,0);
-        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(51, 13, 13) 100%);
+        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(51, 13, 13, 1) 100%);
     }
 
     #links-container{
@@ -583,10 +584,11 @@
     .footer{
         /* height: 80px; */
         width: 100vw;
+        padding: 0 0 4rem 0;
         display: flex;
         justify-content: center;
         background: rgb(0,0,0);
-        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(51, 13, 13) 100%);
+        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(51, 13, 13, 1) 100%);
     }
 
     #links-container{
