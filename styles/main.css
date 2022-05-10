@@ -326,8 +326,8 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
     background: black;
-    background: -webkit-gradient(linear, left top, left bottom, from(black), to(#170404));
-    background: linear-gradient(180deg, black 0%, #170404 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(black), to(#330d0d));
+    background: linear-gradient(180deg, black 0%, #330d0d 100%);
   }
   #links-container {
     width: 15rem;
