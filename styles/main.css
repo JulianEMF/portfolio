@@ -321,7 +321,7 @@
   .footer {
     /* height: 80px; */
     width: 100vw;
-    padding: 0 0 2rem 0;
+    /* padding: 0 0 2rem 0; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -710,7 +710,7 @@
   .footer {
     /* height: 80px; */
     width: 100vw;
-    padding: 0 0 1rem 0;
+    /* padding: 0 0 1rem 0; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
