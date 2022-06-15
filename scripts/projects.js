@@ -46,7 +46,6 @@ const renderProjects = () => {
     if(detectWidth() > 501){
         eachProject.forEach(item => {
             item.addEventListener('mouseenter', (e)=>{
-                console.log(item)
                 onCardHover(item);          
             });
             item.addEventListener('mouseleave', (e)=>{
